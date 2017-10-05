@@ -9,4 +9,4 @@ display_board(board)
 puts "Where would you like to go?"
 player_move = gets.strip
 place_move = input_to_index(player_move)
-move(board, place_move)
+display_board(move(board, place_move))
